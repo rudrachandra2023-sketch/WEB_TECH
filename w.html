@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donation Form</title>
+</head>
+<body>
+  <p>* - Denotes Required Information</p>
+  <p> >1 Donation    >2 Confirmation     >3Thank You!</p>
+  <form>
+    <h3 style="color:red;">Donor Information</h3>
+    <table>
+      <tr><td>First Name*</td><td><input type="text"></td></tr>
+      <tr><td>Last Name*</td><td><input type="text"></td></tr>
+      <tr><td>Company</td><td><input type="text"></td></tr>
+      <tr><td>Address 1*</td><td><input type="text"></td></tr>
+      <tr><td>Address 2</td><td><input type="text"></td></tr>
+      <tr><td>City*</td><td><input type="text"></td></tr>
+      <tr>
+        <td>State*</td>
+        <td>
+          <select>
+            <option>Select a State</option>
+            <option>California</option>
+            <option>Texas</option>
+            <option>New York</option>
+          </select>
+        </td>
+      </tr>
+      <tr><td>Zip Code*</td><td><input type="text"></td></tr>
+      <tr>
+        <td>Country*</td>
+        <td>
+          <select>
+            <option>Select a Country</option>
+            <option>United States</option>
+            <option>Canada</option>
+            <option>Philippines</option>
+          </select>
+        </td>
+      </tr>
+      <tr><td>Phone</td><td><input type="text"></td></tr>
+      <tr><td>Fax</td><td><input type="text"></td></tr>
+      <tr><td>Email*</td><td><input type="text"></td></tr>
+      <tr>
+        <td>Donation Amount*<br><small>(Check a button or type in your amount)</small></td>
+        <td>
+          <input type="radio" name="amount" checked> None
+          <input type="radio" name="amount"> $50
+          <input type="radio" name="amount"> $75
+          <input type="radio" name="amount"> $100
+          <input type="radio" name="amount"> $250
+          <input type="radio" name="amount"> Other
+        </td>
+      </tr>
+      <tr><td>Other Amount $</td><td><input type="text"></td></tr>
+      <tr>
+        <td>Recurring Donation<br><small>(Check if yes)</small></td>
+        <td>
+          <input type="checkbox"> I am interested in giving on a regular basis.<br>
+          Monthly Credit Card $ <input type="text" size="5">
+          For <input type="text" size="5"> Months
+        </td>
+      </tr>
+    </table>
+    <h3 style="color:red;">Honorarium and Memorial Donation Information</h3>
+    <table>
+      <tr>
+        <td>I would like to make this donation</td>
+        <td>
+          <input type="radio" name="honor"> To Honor<br>
+          <input type="radio" name="honor"> In Memory of
+        </td>
+      </tr>
+      <tr><td>Name</td><td><input type="text"></td></tr>
+      <tr><td>Acknowledge Donation to</td><td><input type="text"></td></tr>
+      <tr><td>Address</td><td><input type="text"></td></tr>
+      <tr><td>City</td><td><input type="text"></td></tr>
+      <tr>
+        <td>State</td>
+        <td>
+          <select>
+            <option>Select a State</option>
+            <option>California</option>
+            <option>Texas</option>
+            <option>New York</option>
+          </select>
+        </td>
+      </tr>
+      <tr><td>Zip</td><td><input type="text"></td></tr>
+    </table>
+    <h3 style="color:red;">Additional Information</h3>
+    <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+    Name <input type="text"><br><br>
+    <input type="checkbox"> I would like my gift to remain anonymous.<br>
+    <input type="checkbox"> My employer offers a matching gift program. I will mail the matching gift form.<br>
+    <input type="checkbox"> Please save the cost of acknowledging this gift by not mailing a thank you letter.<br><br>
+    Comments <small>(Please type any questions or feedback here)</small><br>
+    <textarea rows="5" cols="50"></textarea>
+    <br><br>
+    How may we contact you?<br>
+    <input type="checkbox"> E-mail<br>
+    <input type="checkbox"> Postal Mail<br>
+    <input type="checkbox"> Telephone<br>
+    <input type="checkbox"> Fax<br><br>
+    I would like to receive newsletters and information about special events by:<br>
+    <input type="checkbox"> E-mail<br>
+    <input type="checkbox"> Postal Mail<br><br>
+    <input type="checkbox"> I would like information about volunteering with the organization.
+    <hr>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Continue">
+    <p>Donate online with confidence. You are on a secure server.</p>
+    <p>If you have any problems or questions, please contact support.</p>
+  </form>
+</body>
+</html>
